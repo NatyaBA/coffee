@@ -10,11 +10,9 @@
 }
 
 h1 {
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 72px;
-    font-style: normal;
+    font-size: 74px;
     font-weight: 600;
-    line-height: 105%;
+    line-height: 100%;
     width: 530px;
     color: var(--text-light, #E1D4C9);
 }
@@ -30,16 +28,18 @@ body {
   display: flex;
   padding: 0 40px 20px 40px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 16.2px;
 }
 
 .nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  flex: 1 0 0;
+  gap: 42px;
+  flex: 0.991 0 0;
   align-self: stretch;
+  font-style: normal;
+  margin-top: 12px;
 }
 
 .nav .menu-item {
@@ -51,7 +51,7 @@ body {
 
 .container {
   height: 644px;
-  margin: 0px 40px 0px 40px;
+  margin: -3px 40px 0px 40px;
   width: 1360px;
 }
 
@@ -60,18 +60,24 @@ body {
     max-width: 1360px;
     justify-content: space-between;
     align-items: center;
+    margin-right: -9px;
+    margin-bottom: 10px;
     align-self: stretch;
 }
 
+.coffee-menu img {
+  margin-left: 8px;
+}
+
 .text {
-    color: var(--text-light, #E1D4C9);
+    color: #E1D4C9;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    margin: 40px 0px 40px 0px;
+    margin: 41.2px 0px 40px 0px;
 }
 
 .container img {
@@ -97,14 +103,13 @@ body {
 }
 
 .main-head {
-  color: var(--text-dark, #403F3D);
+  color: #403F3D;
   text-align: center;
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-size: 60px;
+  font-size: 61px;
   font-style: normal;
   font-weight: 600;
   line-height: 125%; 
-  margin: 100px 0px 40px 0px;
+  margin: 99px 0px 40px 0px;
 }
 
 .arrow-left button,
@@ -116,6 +121,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #E1D4C9;
+  margin-bottom: 76px;
 }
 
 .coffee-slider {
@@ -138,15 +144,21 @@ body {
 }
 
 .coffee-slider div {
-  width: 480px;
   text-align: center;
-  margin: 20px 336px 16px 336px;
+  margin: 15px 336px 16px 336px;
 }
 
-.wrapper div {
-  width: 40px; 
-  height: 4px; 
-  border-radius: 100px; 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.control {
+  width: 40px;
+  height: 4px;
+  border: none;
+  border-radius: 100px;
   background: #c1b6ad;
 }
 
