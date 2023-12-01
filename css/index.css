@@ -10,12 +10,12 @@
     margin-left: 100px;
 }
 
-h1 {
+.h1 {
     font-size: 74px;
     font-weight: 600;
     line-height: 100%;
     width: 530px;
-    color: var(--text-light, #E1D4C9);
+    color: #E1D4C9;
 }
 
 body {
