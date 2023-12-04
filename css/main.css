@@ -89,3 +89,27 @@
     font-size: 25px;
     font-weight: 600;
 }
+
+@media screen and (max-width: 1430px) {  
+   
+    .menu-header {
+        width: 688px;
+        margin: 0 40px;
+      }
+      
+    .menu-tabs {
+       width: 768px;
+    }
+    
+    .tab-item {
+      display: block;
+    }
+
+    .card-second {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {  
+
+}

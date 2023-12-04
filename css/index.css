@@ -288,7 +288,6 @@ footer {
 }
 
 .contacts:hover {
-  
   transform: scaleX(1);
   border-bottom: 2px solid #C1B6AD;
   transition: 0.5s ease-in-out;
@@ -326,7 +325,8 @@ footer {
 
 .picture-box, 
 .footer-container,
-footer {
+footer,
+.button-link {
   display: flex;
 }
 
@@ -343,7 +343,27 @@ footer {
   margin: 56px 40px 0px 0px;
 }
 
-@media screen and (max-width: 768px) {  
+.resource {
+  font-size: 61px; 
+  font-weight: 600; 
+  line-height: 123%; 
+  margin: 85px 40px 0 40px;
+}
+
+.head-footer {
+  font-size: 60px; 
+  color:#E1D4C9; 
+  line-height: 125%; 
+  width: 530px; margin-bottom: 40px;
+}
+
+.main-header-download {
+  font-size: 61px; 
+  font-weight: 600; 
+  line-height: 125%;
+}
+
+@media screen and (max-width: 1430px) {  
 
   body {
     background-color: rgba(225, 212, 201, 1);
@@ -477,5 +497,165 @@ footer {
     border-radius: 40px;
     background-color: #665F55;
     margin: 100px 40px 40px 40px;
+  }
+
+  .button-menu:hover img {
+    opacity: 0;
+  }
+  
+  .button-menu:hover span {
+    padding-left: 22px;
+  }
+
+  .arrow-left button:hover {
+    background: url("data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='arrow-right'%3e%3cpath%20id='Vector'%20d='M6%2012H18.5M18.5%2012L12.5%206M18.5%2012L12.5%2018'%20stroke='%23403F3D'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e") 50% 50% no-repeat;
+    transform: scale(-1, 1);
+    background-color: #E1D4C9;
+    color:  #665F55;
+    transition: none;
+  }
+  
+  .arrow-right button:hover{
+    background: url("data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='arrow-right'%3e%3cpath%20id='Vector'%20d='M6%2012H18.5M18.5%2012L12.5%206M18.5%2012L12.5%2018'%20stroke='%23403F3D'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e") 50% 50% no-repeat;
+    background-color: #E1D4C9;
+    color:  #665F55;
+    transition: none;
+  }
+
+  .picture img:hover,
+  .picture1 img:hover {
+    transform: scale(1.0); 
+  }
+
+  .contacts:hover {
+    transform: scaleX(1);
+    border-bottom: 2px solid #665F55;
+    transition: none;
+  }
+
+  .offer button:hover {
+    background-color: #665F55;
+    transition: none;
+  }
+}
+
+@media screen and (max-width: 768px) {  
+
+  body {
+    width: 380px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .container {
+    height: 552px;
+    margin: -3px 16px 0px 16px;
+    width: 348px;
+  }
+
+  .content {
+    width: 316px;
+    margin-top: -547px;
+    margin-left: 20px;
+  }
+  
+  .h1 {
+    font-size: 42px;
+    width: 316px;
+  }
+
+  .main-head {
+    font-size: 32px;
+  }
+
+  .coffee-slider {
+    width: 380px;
+  }
+
+  .coffee-slider img {
+    width: 348px;
+    height: 348px;
+  }
+
+  .swaper {
+    width: 380px;
+    margin: 0 16px;
+  }
+  
+  .coffee-slider div {
+    text-align: center;
+    margin: 15px 0px 16px 5px;
+  }
+  
+  .arrow-left button,
+  .arrow-right button{
+    display: none;
+  }
+
+  .picture {
+    display: none;
+  }
+  
+  .resource {
+    font-size: 32px; 
+    margin: 85px 16px 0 16px;
+  }
+  
+  .picture-box div {
+    margin: 40px 16px 0 16px;
+    width: 348px;
+    height: 490px;
+  }
+  .picture1 img {
+    display: block;
+    transition: 1s;
+    width: 348px;
+  }
+
+  footer {
+    width: 348px;
+    margin: 100px 16px 40px 16px;
+  }
+
+  .head-footer {
+    font-size: 32px; 
+    color:#E1D4C9; 
+    line-height: 125%; 
+    width: 348px;
+    margin-bottom: 40px;
+  }
+
+  .offer {
+    padding: 60px 16px 40px 16px;
+  }
+
+  .container-contacts {
+    padding: 0px 16px 60px 16px;
+  }
+
+  .main-img-phone {
+    margin: 0 16px;
+  }
+
+  .main-img-phone img {
+    width: 348px;
+    height: 348px;
+  }
+
+  .main-header-download {
+    font-size: 32px; 
+  }
+
+  .footer-box {
+    width: 348px;
+    margin: 100px 16px 40px 16px;
+  }
+
+  .button-link {
+    display: block;
+  }
+
+  .button-link button {
+    margin-bottom: 20px;
   }
 }
