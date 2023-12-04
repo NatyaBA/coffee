@@ -369,8 +369,8 @@ footer {
 
   .content {
     width: 568px;
-    margin-top: -556px;
-    margin-left: 66px;
+    margin-top: -547px;
+    margin-left: 60px;
   }
   
   .button-menu span {
@@ -419,7 +419,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #E1D4C9;
-    margin-bottom: 35px;
+    margin-bottom: 61px;
     cursor: pointer;
   }
 
@@ -455,12 +455,12 @@ footer {
   }
 
   .footer-box {
-    margin: 204px 100px 40px 40px;
+    margin: 100px 100px 40px 40px;
     width: 688px;
   }
 
   .main-img-phone {
-    margin: 56px 40px 0px 40px;
+    margin: 95px 40px 0px 70px;
   }
 
   .offer {
@@ -469,7 +469,7 @@ footer {
   }
   
   .container-contacts {
-    padding: 0 60px 100px 60px;
+    padding: 55px 60px 85px 60px;
   }
 
   footer {
