@@ -395,11 +395,11 @@ footer,
   
   .button-menu span {
     transition: 0.5s ease-in-out;
-    padding-left: 26px;
+    padding-left: 0px;
   }
   
   .button-menu img {
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s ease-in-out;
     width: 20px;
     height: 20px;
@@ -446,22 +446,19 @@ footer,
   .picture {
     display: none;
   }
-  
-  .picture1 {
-    width: 660px;
-    height: 590px;
-  }
-  
+    
   .picture1 {
     overflow: hidden; 
     border-radius: 20px;
     margin-bottom: 40px;
+    width: 687px;
+    height: 590px;
   }
   
   .picture1 img {
     display: block;
     transition: 1s;
-    width: 660px;
+    width: 687px;
   }
 
   .picture-box,
@@ -497,14 +494,6 @@ footer,
     border-radius: 40px;
     background-color: #665F55;
     margin: 100px 40px 40px 40px;
-  }
-
-  .button-menu:hover img {
-    opacity: 0;
-  }
-  
-  .button-menu:hover span {
-    padding-left: 22px;
   }
 
   .arrow-left button:hover {
@@ -543,7 +532,7 @@ footer,
     display: flex;
     width: 300px;
     justify-content: center;
-    margin: -83px 0 0 510px;
+    margin: -77px 0 0 556px;
   }
 
   .burger a{
@@ -556,6 +545,14 @@ footer,
       align-items: center;  
       background-color: rgba(225, 212, 201, 1);
       font-size: 34px;
+  }
+
+  .button-menu img {
+    opacity: 1;
+  }
+  
+  .button-menu span {
+    padding-left: 22px;
   }
 }
 
