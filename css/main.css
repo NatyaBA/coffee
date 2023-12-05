@@ -94,6 +94,10 @@
     display: none;
 }
 
+.burger {
+    display: none;
+}
+
 @media screen and (max-width: 1430px) {  
    
     .menu-header {
@@ -112,6 +116,26 @@
     .card-second {
         display: none;
     }
+
+    .refresh {
+        display: flex;
+        width: 768px;
+        justify-content: center;
+        margin: 40px 0 50px 0px;
+    }
+
+    .refresh  button{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        border: 1px solid #665F55;
+        justify-content: center;
+        align-items: center;  
+        background-color: rgba(225, 212, 201, 1);
+    }
+
+
+
 }
 
 @media screen and (max-width: 768px) {  
@@ -141,20 +165,7 @@
     }
 
     .refresh {
-        display: flex;
         width: 348px;
-        justify-content: center;
-        margin: 40px 0 50px 0px;
-    }
-
-    .refresh  button{
-        width: 60px;
-        height: 60px;
-        border-radius: 100px;
-        border: 1px solid #665F55;
-        justify-content: center;
-        align-items: center;  
-        background-color: rgba(225, 212, 201, 1);
     }
 
 

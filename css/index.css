@@ -537,6 +537,26 @@ footer,
     background-color: #665F55;
     transition: none;
   }
+
+  .burger {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin: -83px 0 0 510px;
+  }
+
+  .burger a{
+      display: flex;
+      width: 44px;
+      height: 44px;
+      border-radius: 100px;
+      border: 1px solid #665F55;
+      justify-content: center;
+      align-items: center;  
+      background-color: rgba(225, 212, 201, 1);
+      font-size: 34px;
+  }
 }
 
 @media screen and (max-width: 768px) {  
@@ -668,4 +688,24 @@ footer,
   .button-link button {
     margin-bottom: 20px;
   }
+
+  .burger {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin: -83px 0 0 170px;
+}
+
+.burger a{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    border: 1px solid #665F55;
+    justify-content: center;
+    align-items: center;  
+    background-color: rgba(225, 212, 201, 1);
+    font-size: 34px;
+}
 }
