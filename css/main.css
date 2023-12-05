@@ -112,4 +112,27 @@
 
 @media screen and (max-width: 768px) {  
 
+
+    .menu-header {
+        width: 348px;
+        margin: 0 16px;
+        font-size: 32px;
+      }
+      
+    .menu-tabs {
+       width: 348px;
+    }
+
+    .menu-line-card {
+        display: grid;
+        width: 348px;
+    }
+    
+    .tab-item {
+      display: block;
+    }
+
+    .card-second {
+        display: none;
+    }
 }
