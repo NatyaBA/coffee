@@ -90,6 +90,10 @@
     font-weight: 600;
 }
 
+.refresh {
+    display: none;
+}
+
 @media screen and (max-width: 1430px) {  
    
     .menu-header {
@@ -112,15 +116,16 @@
 
 @media screen and (max-width: 768px) {  
 
-
     .menu-header {
-        width: 348px;
+        width: 343px;
         margin: 0 16px;
         font-size: 32px;
       }
       
     .menu-tabs {
-       width: 348px;
+       width: 380px;
+       margin-top: 31px;
+       width: 50px;
     }
 
     .menu-line-card {
@@ -135,4 +140,23 @@
     .card-second {
         display: none;
     }
+
+    .refresh {
+        display: flex;
+        width: 348px;
+        justify-content: center;
+        margin: 40px 0 50px 100px;
+    }
+
+    .refresh  button{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        border: 1px solid #665F55;
+        justify-content: center;
+        align-items: center;  
+        background-color: rgba(225, 212, 201, 1);
+    }
+
+
 }
