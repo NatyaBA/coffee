@@ -607,11 +607,18 @@ footer,
   
   .picture-box div {
     margin: 40px 16px 0 16px;
+    width: 348px;
 
   }
+
   .picture1 img {
     display: block;
     transition: 1s;
+    top:50%;
+    left:50%;
+    width: 348px;
+    height: 590px;
+    object-fit:cover;
 
   }
 
