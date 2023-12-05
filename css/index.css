@@ -562,6 +562,8 @@ footer,
   .h1 {
     font-size: 42px;
     width: 316px;
+    margin-top: 44px;
+    line-height: 122%;
   }
 
   .main-head {
@@ -570,11 +572,13 @@ footer,
 
   .coffee-slider {
     width: 380px;
+    margin-left: -30px;
   }
 
   .coffee-slider img {
     width: 348px;
     height: 348px;
+
   }
 
   .swaper {
@@ -603,13 +607,12 @@ footer,
   
   .picture-box div {
     margin: 40px 16px 0 16px;
-    width: 348px;
-    height: 490px;
+
   }
   .picture1 img {
     display: block;
     transition: 1s;
-    width: 348px;
+
   }
 
   footer {
