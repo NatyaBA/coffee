@@ -363,6 +363,10 @@ footer,
   line-height: 125%;
 }
 
+.burger {
+  display: none;
+}
+
 @media screen and (max-width: 1430px) {  
 
   body {
@@ -694,15 +698,15 @@ footer,
     margin: -83px 0 0 170px;
 }
 
-.burger a{
-    display: flex;
-    width: 44px;
-    height: 44px;
-    border-radius: 100px;
-    border: 1px solid #665F55;
-    justify-content: center;
-    align-items: center;  
-    background-color: rgba(225, 212, 201, 1);
-    font-size: 34px;
-}
+  .burger a{
+      display: flex;
+      width: 44px;
+      height: 44px;
+      border-radius: 100px;
+      border: 1px solid #665F55;
+      justify-content: center;
+      align-items: center;  
+      background-color: rgba(225, 212, 201, 1);
+      font-size: 34px;
+  }
 }
