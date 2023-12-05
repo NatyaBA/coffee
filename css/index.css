@@ -588,7 +588,7 @@ footer,
   
   .coffee-slider div {
     text-align: center;
-    margin: 15px 0px 16px 5px;
+    margin: 15px 0px 16px 0px;
   }
   
   .arrow-left button,
@@ -606,7 +606,7 @@ footer,
   }
   
   .picture-box div {
-    margin: 40px 16px 0 8.5px;
+    margin-top: 40px;
     width: 348px;
 
   }
@@ -640,7 +640,7 @@ footer,
   }
 
   .container-contacts {
-    padding: 0px 16px 60px 16px;
+    padding: 0px 16px 43px 16px;
   }
 
   .main-img-phone {
